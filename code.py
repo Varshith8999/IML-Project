@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 import joblib
 
-df = pd.read_csv('C:\Users\Varshith Daduvy\OneDrive\Desktop\IML-P\dataset.txt')
+df = pd.read_csv('dataset.txt')
 df.columns = df.columns.str.strip()  
 print("Columns:", df.columns.tolist())
 date_col = 'last_update'
